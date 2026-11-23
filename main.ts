@@ -1,6 +1,4 @@
-// tiny-stack-vm: an exact interpreter for make.fun's tiny stack ISA (rules in the
-// kit's ISA.md), traps and limits included. It answers every instance in the input
-// directory: program.bin run against input.bin, stdout.bin and exit.txt written.
+// tiny-stack-vm: exact interpreter for the tiny stack ISA.
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
